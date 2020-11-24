@@ -11,11 +11,11 @@ document.addEventListener('DOMContentLoaded', () => {
     let score = 0;
     let timerId;
     let tetroColors = [
-        "black",
-        "#181818",
-        "#282828",
-        "#383838",
-        "#484848"
+        "#161a1d",
+        "#660708",
+        "#b1a7a6",
+        "#ba181b",
+        "#a4161a"
     ];
     
     //Tetros
@@ -174,7 +174,7 @@ document.addEventListener('DOMContentLoaded', () => {
         // New Game Button
     startBtn.addEventListener('click', startGame);
     function startGame(){
-        squares.forEach(x=> x.style.backgroundColor = '');
+        squares.forEach(x=> { x.style.backgroundColor = ''; });
         gameOverText.innerHTML = "";
         gameOverText.style.backgroundColor = "";
         for(let i=0; i<200; i++){

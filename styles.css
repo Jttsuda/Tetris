@@ -3,7 +3,7 @@
   padding: 0px;
 }
 #tetris-content {
-  transform: translate(7vw, 4vw);
+  transform: translate(7%, 4%);
   display: inline-block;
 }
 /* Main GRID */
